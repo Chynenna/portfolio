@@ -1,0 +1,87 @@
+:root {
+    ---primary-color: #9686FF;
+    ---border: 1px solid #9686FF;
+    ---secondary-color: #FFCCFF;
+}
+.h1, .h2, .h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-size: 48px;
+    padding-top: 50px;
+}
+#h2{
+    margin-top: 100px;
+    font-size: 48px;
+}
+h1{
+    margin: 0;
+}
+#h1{
+    font-size: 96px;
+}
+h3{
+    font-size: 24px;
+    color: #787878;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.contact-button {
+    border: var(---border);
+    background: var(---primary-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    padding: 20px 15px;
+    margin: 20px;
+    border-radius: 4px;
+    color: white;
+}
+.about-button{
+    border: var(---border);
+    text-decoration: none;
+    padding: 20px 15px;
+    margin: 20px;
+    border-radius: 4px;
+    color: var(---primary-color);
+}
+.h2-projects{
+    padding-top: 0;
+}
+.project-button {
+    margin: 0;
+}
+@media (max-width: 576px) {
+    img {
+        display: none;
+    }
+    h1 {
+        font-size: 48px !important;
+        line-height: 1.5 !important;
+    }
+    h2 {
+        font-size: 32px !important;
+        text-align: center;
+    }
+    #h2 {
+        margin-top: 50px;
+    }
+    p {
+        text-align: center;
+    }
+    .project-button {
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+    }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Some information about junior front-end developer Nataliia Chynenna">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Info about Nataliia Chynenna</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossorigin="anonymous"
+    />
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+    </script>
+    <style>
+        :root{
+            ---secondary-color: #FFCCFF;
+        }
+        body {
+            margin-top: 100px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+        }
+        .h1{
+            font-size: 96px;
+        }
+        h2 {
+            font-size: 48px !important;
+        }
+        h3{
+            color: #6B6B6B;
+        }
+        #h3{
+            font-size: 24px;
+            opacity: 0.7;
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .paragraphs p {
+            margin: 10px;
+        }
+        .paragraphs{
+            margin: 30px 0;
+        }
+        .email {
+            display: flex;
+            justify-content: center;
+            color: blue;
+            font-size: 28px;
+            text-decoration: none;
+        }
+        .email:hover{
+            text-decoration: underline;
+        }
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 48px !important;
+                line-height: 1.5 !important;
+            }
+            h2 {
+                font-size: 32px !important;
+            }
+            .email {
+                margin-bottom: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Nataliia Chynenna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="h1">About me</h1>
+    <h3 class="h3" id="h3">Front-end developer from Kyiv, Ukraine</h3>
+    <div class="paragraphs text-center">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+          blanditiis harum.
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/l3jP-yoga.png" class="img-fluid p-2 shadow rounded" alt="Image of yoga project" >
+            </div>
+            <div class="col-sm-4">
+                <img src="images/jxM9-weather.png" class="img-fluid p-2 shadow rounded" alt="Image of weather project">
+            </div>
+            <div class="col-sm-4">
+                <img src="images/WgM8-yogurt.png" class="img-fluid p-2 shadow rounded" alt="Image of yogurt project">
+            </div>
+        </div>
+    </div>
+    <h2 class="h2 mt-5">📧 Contact me</h2>
+    <a href="mailto:ganna2182@gmail.com" class="email" id="contact">ganna2182@gmail.com</a>
+</body>
+</html>
